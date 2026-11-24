@@ -1,0 +1,14 @@
+import { startRun, ensureDeployment } from './runtime.mjs';
+import { check, getter } from './scenario.mjs';
+const run = await startRun(3);
+if (run.done) process.exit(0);
+await ensureDeployment(run);
+await run.operation('open-edition','propose',['Open landscapes and devotional art','[[490002,436535],[459055]]']);
+await run.operation('open-shortage','propose',['Edition without a substitute','[[490002]]']);
+await run.operation('publish-with-substitute','resolve',[0],1);
+await run.operation('block-missing-slot','resolve',[1],2);
+await run.operation('reject-replay','resolve',[0],1,'FAILURE');
+const normal=await run.snapshot('normal',getter,[0]);
+const exception=await run.snapshot('exception',getter,[1]);
+check(normal, exception);
+await run.finish();

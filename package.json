@@ -1,0 +1,1 @@
+{"name":"exhibit-basket","version":"1.0.0","type":"module","private":true,"scripts":{"live":"node scripts/live.mjs","verify":"node scripts/verify.mjs","test":"python3 -m unittest discover -s tests"},"dependencies":{"genlayer-js":"2.0.0"}}

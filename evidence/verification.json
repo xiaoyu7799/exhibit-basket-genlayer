@@ -1,0 +1,238 @@
+{
+  "verifiedAt": "2026-11-24T07:11:53.738Z",
+  "chainId": 61999,
+  "address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+  "sourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "sourceMatches": true,
+  "transactions": [
+    {
+      "tag": "deploy",
+      "hash": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+      "function": "deploy",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": {
+        "raw": "AAA=",
+        "status": "return",
+        "payload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "equivalenceOutputs": [],
+      "votes": {
+        "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
+        "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+      }
+    },
+    {
+      "tag": "open-edition",
+      "hash": "0x26a02c0426fe1a95b5185ceb7ff7e88f22ac4037d46613e1f615feab7d39d505",
+      "function": "propose",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": {
+        "raw": "AAE=",
+        "status": "return",
+        "payload": {
+          "raw": [
+            1
+          ],
+          "readable": "0"
+        }
+      },
+      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "equivalenceOutputs": [],
+      "votes": {
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
+        "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+      }
+    },
+    {
+      "tag": "open-shortage",
+      "hash": "0x6cda6b125ccbc94c783e70c721545e95035b5b171f4f5c4f17518c48dff415ab",
+      "function": "propose",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": {
+        "raw": "AAk=",
+        "status": "return",
+        "payload": {
+          "raw": [
+            9
+          ],
+          "readable": "1"
+        }
+      },
+      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "equivalenceOutputs": [],
+      "votes": {
+        "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "idle",
+        "0xee46B9Dc4c860149B1d140840284e5374854e746": "idle"
+      }
+    },
+    {
+      "tag": "publish-with-substitute",
+      "hash": "0x6c3265759062c81968cbd90d8b3503e27f0cef7d52dc66e0e2359074c6c58be8",
+      "function": "resolve",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": {
+        "raw": "AAA=",
+        "status": "return",
+        "payload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "equivalenceOutputs": [
+        "0"
+      ],
+      "votes": {
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "agree",
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
+        "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "idle",
+        "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+      }
+    },
+    {
+      "tag": "block-missing-slot",
+      "hash": "0xbec4fb30bd36cb3fe985621f4fd02b267201077c011ed0b318f75f14feb2a35c",
+      "function": "resolve",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": {
+        "raw": "AAA=",
+        "status": "return",
+        "payload": {
+          "raw": [
+            0
+          ],
+          "readable": "null"
+        }
+      },
+      "actor": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
+      "equivalenceOutputs": [
+        "0"
+      ],
+      "votes": {
+        "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+        "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree",
+        "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
+      }
+    },
+    {
+      "tag": "reject-replay",
+      "hash": "0xfb1d376ce6a494c4068839087c2660147065426c8709d774894b91fe7143e737",
+      "function": "resolve",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": {
+        "raw": "AmV4aXRfY29kZSAx",
+        "status": "contract_error",
+        "payload": "exit_code 1"
+      },
+      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "contractError": "EDITION_CLOSED",
+      "equivalenceOutputs": [],
+      "votes": {
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+        "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+      }
+    }
+  ],
+  "normal": {
+    "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+    "evidence": [
+      [
+        {
+          "id": 490002,
+          "image": "",
+          "reason": "NOT_PUBLIC_DOMAIN",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
+        },
+        {
+          "id": 436535,
+          "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+          "reason": "READY",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535"
+        }
+      ],
+      [
+        {
+          "id": 459055,
+          "image": "https://images.metmuseum.org/CRDImages/rl/original/DP-40424-001.jpg",
+          "reason": "READY",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459055"
+        }
+      ]
+    ],
+    "label": "Open landscapes and devotional art",
+    "manifest": [
+      {
+        "id": 436535,
+        "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+        "reason": "READY",
+        "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535"
+      },
+      {
+        "id": 459055,
+        "image": "https://images.metmuseum.org/CRDImages/rl/original/DP-40424-001.jpg",
+        "reason": "READY",
+        "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459055"
+      }
+    ],
+    "slots": [
+      [
+        490002,
+        436535
+      ],
+      [
+        459055
+      ]
+    ],
+    "state": "PUBLISHED"
+  },
+  "exception": {
+    "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+    "evidence": [
+      [
+        {
+          "id": 490002,
+          "image": "",
+          "reason": "NOT_PUBLIC_DOMAIN",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
+        }
+      ]
+    ],
+    "label": "Edition without a substitute",
+    "manifest": [],
+    "slots": [
+      [
+        490002
+      ]
+    ],
+    "state": "BLOCKED"
+  }
+}

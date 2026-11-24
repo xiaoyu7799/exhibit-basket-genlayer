@@ -1,0 +1,34 @@
+{
+  "address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+  "chainId": 61999,
+  "localSource": "contracts/exhibit_basket.py",
+  "deploymentTransaction": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+  "deployedSourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "localSourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "sourceMatches": true,
+  "sdkDeclaration": "# { \"Depends\": \"py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6\" }",
+  "command": "genvm-lint check <byte-for-byte deployed source> --json",
+  "tool": "genvm-lint, version 0.11.0",
+  "exitCode": 0,
+  "output": {
+    "ok": true,
+    "lint": {
+      "ok": true,
+      "passed": 3
+    },
+    "validate": {
+      "ok": true,
+      "contract": "ExhibitBasket",
+      "methods": 4,
+      "view_methods": 2,
+      "write_methods": 2,
+      "ctor_params": 0,
+      "warnings": [
+        {
+          "code": "I200",
+          "msg": "py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api",
+    "sdk": "genlayer-js@2.0.0"
+  },
+  "startedAt": "2026-11-24T07:04:10.849Z",
+  "operations": {
+    "open-edition": {
+      "function": "propose",
+      "args": [
+        "Open landscapes and devotional art",
+        "[[490002,436535],[459055]]"
+      ],
+      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "hash": "0x26a02c0426fe1a95b5185ceb7ff7e88f22ac4037d46613e1f615feab7d39d505",
+      "expected": "SUCCESS",
+      "receipt": {
+        "hash": "0x26a02c0426fe1a95b5185ceb7ff7e88f22ac4037d46613e1f615feab7d39d505",
+        "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "status": 7,
+        "statusName": "FINALIZED",
+        "txExecutionResultName": "FINISHED_WITH_RETURN",
+        "created_at": "2026-11-24T07:06:18.698836+00:00",
+        "nonce": 2,
+        "consensus_data": {
+          "votes": {
+            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+            "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
+            "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
+            "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+          },
+          "leader_receipt": [
+            {
+              "execution_result": "SUCCESS",
+              "vote": null,
+              "mode": "leader",
+              "result": {
+                "raw": "AAE=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    1
+                  ],
+                  "readable": "0"
+                }
+              }
+            },
+            {
+              "execution_result": "SUCCESS",
+              "vote": "agree",
+              "mode": "validator",
+              "result": {
+                "raw": "AAE=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    1
+                  ],
+                  "readable": "0"
+                }
+              }
+            }
+          ]
+        },
+        "call": "{\"\":\"propose\"\"args\":[\"Open landscapes and devotional art\",\"[[490002,436535],[459055]]\",]}"
+      },
+      "observed": "SUCCESS"
+    },
+    "open-shortage": {
+      "function": "propose",
+      "args": [
+        "Edition without a substitute",
+        "[[490002]]"
+      ],
+      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "hash": "0x6cda6b125ccbc94c783e70c721545e95035b5b171f4f5c4f17518c48dff415ab",
+      "expected": "SUCCESS",
+      "receipt": {
+        "hash": "0x6cda6b125ccbc94c783e70c721545e95035b5b171f4f5c4f17518c48dff415ab",
+        "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "status": 7,
+        "statusName": "FINALIZED",
+        "txExecutionResultName": "FINISHED_WITH_RETURN",
+        "created_at": "2026-11-24T07:07:13.150348+00:00",
+        "nonce": 3,
+        "consensus_data": {
+          "votes": {
+            "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+            "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
+            "0xe358f855C96d8E7243836cf986eb037175B9467e": "idle",
+            "0xee46B9Dc4c860149B1d140840284e5374854e746": "idle"
+          },
+          "leader_receipt": [
+            {
+              "execution_result": "SUCCESS",
+              "vote": null,
+              "mode": "leader",
+              "result": {
+                "raw": "AAk=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    9
+                  ],
+                  "readable": "1"
+                }
+              }
+            },
+            {
+              "execution_result": "SUCCESS",
+              "vote": "agree",
+              "mode": "validator",
+              "result": {
+                "raw": "AAk=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    9
+                  ],
+                  "readable": "1"
+                }
+              }
+            }
+          ]
+        },
+        "call": "{\"\":\"propose\"\"args\":[\"Edition without a substitute\",\"[[490002]]\",]}"
+      },
+      "observed": "SUCCESS"
+    },
+    "publish-with-substitute": {
+      "function": "resolve",
+      "args": [
+        0
+      ],
+      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "hash": "0x6c3265759062c81968cbd90d8b3503e27f0cef7d52dc66e0e2359074c6c58be8",
+      "expected": "SUCCESS",
+      "receipt": {
+        "hash": "0x6c3265759062c81968cbd90d8b3503e27f0cef7d52dc66e0e2359074c6c58be8",
+        "from_address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "status": 7,
+        "statusName": "FINALIZED",
+        "txExecutionResultName": "FINISHED_WITH_RETURN",
+        "created_at": "2026-11-24T07:07:54.688822+00:00",
+        "consensus_data": {
+          "votes": {
+            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "agree",
+            "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
+            "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "idle",
+            "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree",
+            "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+          },
+          "leader_receipt": [
+            {
+              "execution_result": "SUCCESS",
+              "vote": null,
+              "mode": "leader",
+              "result": {
+                "raw": "AAA=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    0
+                  ],
+                  "readable": "null"
+                }
+              }
+            },
+            {
+              "execution_result": "SUCCESS",
+              "vote": "agree",
+              "mode": "validator",
+              "result": {
+                "raw": "AAA=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    0
+                  ],
+                  "readable": "null"
+                }
+              }
+            }
+          ]
+        },
+        "call": "{\"\":\"resolve\"\"args\":[0,]}"
+      },
+      "observed": "SUCCESS"
+    },
+    "block-missing-slot": {
+      "function": "resolve",
+      "args": [
+        1
+      ],
+      "actor": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
+      "hash": "0xbec4fb30bd36cb3fe985621f4fd02b267201077c011ed0b318f75f14feb2a35c",
+      "expected": "SUCCESS",
+      "receipt": {
+        "hash": "0xbec4fb30bd36cb3fe985621f4fd02b267201077c011ed0b318f75f14feb2a35c",
+        "from_address": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
+        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "status": 7,
+        "statusName": "FINALIZED",
+        "txExecutionResultName": "FINISHED_WITH_RETURN",
+        "created_at": "2026-11-24T07:08:39.018811+00:00",
+        "consensus_data": {
+          "votes": {
+            "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+            "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+            "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree",
+            "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
+          },
+          "leader_receipt": [
+            {
+              "execution_result": "SUCCESS",
+              "vote": null,
+              "mode": "leader",
+              "result": {
+                "raw": "AAA=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    0
+                  ],
+                  "readable": "null"
+                }
+              }
+            },
+            {
+              "execution_result": "SUCCESS",
+              "vote": "agree",
+              "mode": "validator",
+              "result": {
+                "raw": "AAA=",
+                "status": "return",
+                "payload": {
+                  "raw": [
+                    0
+                  ],
+                  "readable": "null"
+                }
+              }
+            }
+          ]
+        },
+        "call": "{\"\":\"resolve\"\"args\":[1,]}"
+      },
+      "observed": "SUCCESS"
+    },
+    "reject-replay": {
+      "function": "resolve",
+      "args": [
+        0
+      ],
+      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "hash": "0xfb1d376ce6a494c4068839087c2660147065426c8709d774894b91fe7143e737",
+      "expected": "FAILURE",
+      "receipt": {
+        "hash": "0xfb1d376ce6a494c4068839087c2660147065426c8709d774894b91fe7143e737",
+        "from_address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "status": 7,
+        "statusName": "FINALIZED",
+        "txExecutionResultName": "FINISHED_WITH_ERROR",
+        "created_at": "2026-11-24T07:09:26.758835+00:00",
+        "nonce": 1,
+        "consensus_data": {
+          "votes": {
+            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+            "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+            "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+            "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+          },
+          "leader_receipt": [
+            {
+              "execution_result": "ERROR",
+              "vote": null,
+              "mode": "leader",
+              "result": {
+                "raw": "AmV4aXRfY29kZSAx",
+                "status": "contract_error",
+                "payload": "exit_code 1"
+              }
+            },
+            {
+              "execution_result": "ERROR",
+              "vote": "agree",
+              "mode": "validator",
+              "result": {
+                "raw": "AmV4aXRfY29kZSAx",
+                "status": "contract_error",
+                "payload": "exit_code 1"
+              }
+            }
+          ]
+        },
+        "call": "{\"\":\"resolve\"\"args\":[0,]}"
+      },
+      "observed": "FAILURE"
+    }
+  },
+  "snapshots": {
+    "normal": {
+      "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+      "evidence": [
+        [
+          {
+            "id": 490002,
+            "image": "",
+            "reason": "NOT_PUBLIC_DOMAIN",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
+          },
+          {
+            "id": 436535,
+            "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+            "reason": "READY",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535"
+          }
+        ],
+        [
+          {
+            "id": 459055,
+            "image": "https://images.metmuseum.org/CRDImages/rl/original/DP-40424-001.jpg",
+            "reason": "READY",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459055"
+          }
+        ]
+      ],
+      "label": "Open landscapes and devotional art",
+      "manifest": [
+        {
+          "id": 436535,
+          "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+          "reason": "READY",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535"
+        },
+        {
+          "id": 459055,
+          "image": "https://images.metmuseum.org/CRDImages/rl/original/DP-40424-001.jpg",
+          "reason": "READY",
+          "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459055"
+        }
+      ],
+      "slots": [
+        [
+          490002,
+          436535
+        ],
+        [
+          459055
+        ]
+      ],
+      "state": "PUBLISHED"
+    },
+    "exception": {
+      "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+      "evidence": [
+        [
+          {
+            "id": 490002,
+            "image": "",
+            "reason": "NOT_PUBLIC_DOMAIN",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
+          }
+        ]
+      ],
+      "label": "Edition without a substitute",
+      "manifest": [],
+      "slots": [
+        [
+          490002
+        ]
+      ],
+      "state": "BLOCKED"
+    }
+  },
+  "funding": [
+    {
+      "address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "method": "sim_fundAccount",
+      "requestedWei": "1000000000000000000",
+      "beforeWei": "0",
+      "afterWei": "1000000000000000000",
+      "result": "0x597ecbe6ac8fded025ac10d7e09a37cc9794b39613438a208d679aad5666bcae"
+    },
+    {
+      "address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "method": "sim_fundAccount",
+      "requestedWei": "1000000000000000000",
+      "beforeWei": "0",
+      "afterWei": "1000000000000000000",
+      "result": "0x865a1e2fa7ef059283dec4755ba6dc6ee61d6203b8ffad1cf7651bcb17326621"
+    },
+    {
+      "address": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
+      "method": "sim_fundAccount",
+      "requestedWei": "1000000000000000000",
+      "beforeWei": "0",
+      "afterWei": "1000000000000000000",
+      "result": "0xbcf7271109bf9feafda75683659eb4c28e515099f0679fdecdd229e798eb8dcb"
+    }
+  ],
+  "complete": true,
+  "actors": [
+    "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+    "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+    "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6"
+  ],
+  "deployment": {
+    "hash": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+    "receipt": {
+      "hash": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+      "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+      "status": 7,
+      "statusName": "FINALIZED",
+      "txExecutionResultName": "FINISHED_WITH_RETURN",
+      "created_at": "2026-11-24T07:05:17.758812+00:00",
+      "nonce": 1,
+      "consensus_data": {
+        "votes": {
+          "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+          "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
+          "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+          "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+          "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+        },
+        "leader_receipt": [
+          {
+            "execution_result": "SUCCESS",
+            "vote": null,
+            "mode": "leader",
+            "result": {
+              "raw": "AAA=",
+              "status": "return",
+              "payload": {
+                "raw": [
+                  0
+                ],
+                "readable": "null"
+              }
+            }
+          },
+          {
+            "execution_result": "SUCCESS",
+            "vote": "agree",
+            "mode": "validator",
+            "result": {
+              "raw": "AAA=",
+              "status": "return",
+              "payload": {
+                "raw": [
+                  0
+                ],
+                "readable": "null"
+              }
+            }
+          }
+        ]
+      },
+      "call": "{}"
+    }
+  },
+  "sourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "sourcePath": "contracts/exhibit_basket.py",
+  "address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+  "completedAt": "2026-11-24T07:10:10.231Z",
+  "keyCleanup": {
+    "removed": true,
+    "published": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "chainId": 61999,
+  "sdk": "genlayer-js@1.1.8",
+  "hash": "0xa5c99207c0dcfe1e19d139131f2b357c822b4e6d996b3e510c1cdd7dbbfc4dd7",
+  "status": "EVM_REVERTED",
+  "consensusContract": "0xb7278a61aa25c888815afc32ad3cc52ff24fe575",
+  "blockNumber": "0x0"
+}
