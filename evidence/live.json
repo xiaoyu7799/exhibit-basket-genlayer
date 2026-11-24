@@ -4,31 +4,31 @@
     "rpc": "https://studio.genlayer.com/api",
     "sdk": "genlayer-js@2.0.0"
   },
-  "startedAt": "2026-11-24T07:04:10.849Z",
+  "startedAt": "2026-11-24T07:35:06.804Z",
   "operations": {
     "open-edition": {
       "function": "propose",
       "args": [
         "Open landscapes and devotional art",
-        "[[490002,436535],[459055]]"
+        "[[9999999,490002,436535],[459055]]"
       ],
-      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-      "hash": "0x26a02c0426fe1a95b5185ceb7ff7e88f22ac4037d46613e1f615feab7d39d505",
+      "actor": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+      "hash": "0xd9fa9fc7da7f16032f46a11c21ac9753738974b503db30a70ce44e8c08359114",
       "expected": "SUCCESS",
       "receipt": {
-        "hash": "0x26a02c0426fe1a95b5185ceb7ff7e88f22ac4037d46613e1f615feab7d39d505",
-        "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "hash": "0xd9fa9fc7da7f16032f46a11c21ac9753738974b503db30a70ce44e8c08359114",
+        "from_address": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+        "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
         "status": 7,
         "statusName": "FINALIZED",
         "txExecutionResultName": "FINISHED_WITH_RETURN",
-        "created_at": "2026-11-24T07:06:18.698836+00:00",
-        "nonce": 2,
+        "created_at": "2026-11-24T07:35:57.838837+00:00",
+        "nonce": 1,
         "consensus_data": {
           "votes": {
-            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
-            "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
-            "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+            "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "agree",
+            "0x6DC61b906F74F44612c5545b0b79486133B3556d": "idle",
             "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
             "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
           },
@@ -65,7 +65,7 @@
             }
           ]
         },
-        "call": "{\"\":\"propose\"\"args\":[\"Open landscapes and devotional art\",\"[[490002,436535],[459055]]\",]}"
+        "call": "{\"\":\"propose\"\"args\":[\"Open landscapes and devotional art\",\"[[9999999,490002,436535],[459055]]\",]}"
       },
       "observed": "SUCCESS"
     },
@@ -73,27 +73,27 @@
       "function": "propose",
       "args": [
         "Edition without a substitute",
-        "[[490002]]"
+        "[[9999999]]"
       ],
-      "actor": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-      "hash": "0x6cda6b125ccbc94c783e70c721545e95035b5b171f4f5c4f17518c48dff415ab",
+      "actor": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+      "hash": "0x2d057ba0da123c779988e23421c09c4bc01995f8a416f6bd79c280a8f9273972",
       "expected": "SUCCESS",
       "receipt": {
-        "hash": "0x6cda6b125ccbc94c783e70c721545e95035b5b171f4f5c4f17518c48dff415ab",
-        "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "hash": "0x2d057ba0da123c779988e23421c09c4bc01995f8a416f6bd79c280a8f9273972",
+        "from_address": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+        "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
         "status": 7,
         "statusName": "FINALIZED",
         "txExecutionResultName": "FINISHED_WITH_RETURN",
-        "created_at": "2026-11-24T07:07:13.150348+00:00",
-        "nonce": 3,
+        "created_at": "2026-11-24T07:36:39.748791+00:00",
+        "nonce": 2,
         "consensus_data": {
           "votes": {
-            "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
-            "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
-            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree",
-            "0xe358f855C96d8E7243836cf986eb037175B9467e": "idle",
-            "0xee46B9Dc4c860149B1d140840284e5374854e746": "idle"
+            "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "agree",
+            "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+            "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "idle",
+            "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
           },
           "leader_receipt": [
             {
@@ -128,7 +128,7 @@
             }
           ]
         },
-        "call": "{\"\":\"propose\"\"args\":[\"Edition without a substitute\",\"[[490002]]\",]}"
+        "call": "{\"\":\"propose\"\"args\":[\"Edition without a substitute\",\"[[9999999]]\",]}"
       },
       "observed": "SUCCESS"
     },
@@ -137,24 +137,24 @@
       "args": [
         0
       ],
-      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
-      "hash": "0x6c3265759062c81968cbd90d8b3503e27f0cef7d52dc66e0e2359074c6c58be8",
+      "actor": "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
+      "hash": "0x8baaa1c36f21f62a0fe4c49e00cd87ecb8178e545e043307d741c160f7d2ceec",
       "expected": "SUCCESS",
       "receipt": {
-        "hash": "0x6c3265759062c81968cbd90d8b3503e27f0cef7d52dc66e0e2359074c6c58be8",
-        "from_address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
-        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "hash": "0x8baaa1c36f21f62a0fe4c49e00cd87ecb8178e545e043307d741c160f7d2ceec",
+        "from_address": "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
+        "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
         "status": 7,
         "statusName": "FINALIZED",
         "txExecutionResultName": "FINISHED_WITH_RETURN",
-        "created_at": "2026-11-24T07:07:54.688822+00:00",
+        "created_at": "2026-11-24T07:37:22.538795+00:00",
         "consensus_data": {
           "votes": {
-            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "agree",
-            "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
-            "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "idle",
-            "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree",
-            "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+            "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
+            "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
+            "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
           },
           "leader_receipt": [
             {
@@ -198,24 +198,24 @@
       "args": [
         1
       ],
-      "actor": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
-      "hash": "0xbec4fb30bd36cb3fe985621f4fd02b267201077c011ed0b318f75f14feb2a35c",
+      "actor": "0xdc1e04c8c286906d725B2a3B682b5DE6E96BB0d3",
+      "hash": "0xe3e36fd96bdeb75fb221646af87bd4714d4063baf9406a26f101e53834d6ddd9",
       "expected": "SUCCESS",
       "receipt": {
-        "hash": "0xbec4fb30bd36cb3fe985621f4fd02b267201077c011ed0b318f75f14feb2a35c",
-        "from_address": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
-        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "hash": "0xe3e36fd96bdeb75fb221646af87bd4714d4063baf9406a26f101e53834d6ddd9",
+        "from_address": "0xdc1e04c8c286906d725B2a3B682b5DE6E96BB0d3",
+        "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
         "status": 7,
         "statusName": "FINALIZED",
         "txExecutionResultName": "FINISHED_WITH_RETURN",
-        "created_at": "2026-11-24T07:08:39.018811+00:00",
+        "created_at": "2026-11-24T07:38:07.768828+00:00",
         "consensus_data": {
           "votes": {
-            "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
-            "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
-            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
-            "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree",
-            "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
+            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+            "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "agree",
+            "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
+            "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "idle"
           },
           "leader_receipt": [
             {
@@ -259,25 +259,25 @@
       "args": [
         0
       ],
-      "actor": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
-      "hash": "0xfb1d376ce6a494c4068839087c2660147065426c8709d774894b91fe7143e737",
+      "actor": "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
+      "hash": "0x18a1392b656f45a11ce9c478d2875b6b18dc96e1d869f4efd3c2beb7fd68a328",
       "expected": "FAILURE",
       "receipt": {
-        "hash": "0xfb1d376ce6a494c4068839087c2660147065426c8709d774894b91fe7143e737",
-        "from_address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
-        "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+        "hash": "0x18a1392b656f45a11ce9c478d2875b6b18dc96e1d869f4efd3c2beb7fd68a328",
+        "from_address": "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
+        "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
         "status": 7,
         "statusName": "FINALIZED",
         "txExecutionResultName": "FINISHED_WITH_ERROR",
-        "created_at": "2026-11-24T07:09:26.758835+00:00",
+        "created_at": "2026-11-24T07:38:51.518818+00:00",
         "nonce": 1,
         "consensus_data": {
           "votes": {
-            "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
-            "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
-            "0x5744305308D62592B7De585e1999c4Ea51E03C29": "idle",
+            "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "agree",
             "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree",
-            "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+            "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "agree",
+            "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
+            "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "idle"
           },
           "leader_receipt": [
             {
@@ -309,13 +309,19 @@
   },
   "snapshots": {
     "normal": {
-      "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+      "editor": "0xa26e9c3d23fb5b69dbf345f3853790b7f49d47f7",
       "evidence": [
         [
           {
+            "id": 9999999,
+            "image": "",
+            "reason": "NOT_FOUND",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/9999999"
+          },
+          {
             "id": 490002,
             "image": "",
-            "reason": "NOT_PUBLIC_DOMAIN",
+            "reason": "NO_OFFICIAL_IMAGE",
             "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
           },
           {
@@ -351,6 +357,7 @@
       ],
       "slots": [
         [
+          9999999,
           490002,
           436535
         ],
@@ -361,14 +368,14 @@
       "state": "PUBLISHED"
     },
     "exception": {
-      "editor": "0x2d663e5c9dae6c47fdba5b90a118673062c35fac",
+      "editor": "0xa26e9c3d23fb5b69dbf345f3853790b7f49d47f7",
       "evidence": [
         [
           {
-            "id": 490002,
+            "id": 9999999,
             "image": "",
-            "reason": "NOT_PUBLIC_DOMAIN",
-            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/490002"
+            "reason": "NOT_FOUND",
+            "source": "https://collectionapi.metmuseum.org/public/collection/v1/objects/9999999"
           }
         ]
       ],
@@ -376,7 +383,7 @@
       "manifest": [],
       "slots": [
         [
-          490002
+          9999999
         ]
       ],
       "state": "BLOCKED"
@@ -384,54 +391,53 @@
   },
   "funding": [
     {
-      "address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
+      "address": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
       "method": "sim_fundAccount",
       "requestedWei": "1000000000000000000",
       "beforeWei": "0",
       "afterWei": "1000000000000000000",
-      "result": "0x597ecbe6ac8fded025ac10d7e09a37cc9794b39613438a208d679aad5666bcae"
+      "result": "0x1d85e1df57beb87fbf014d87374603d56567fd17e8747421a006e48a619d380a"
     },
     {
-      "address": "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
+      "address": "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
       "method": "sim_fundAccount",
       "requestedWei": "1000000000000000000",
       "beforeWei": "0",
       "afterWei": "1000000000000000000",
-      "result": "0x865a1e2fa7ef059283dec4755ba6dc6ee61d6203b8ffad1cf7651bcb17326621"
+      "result": "0xdbcb04f0823567b7e41d3fc0b56d15052da0be61147e8c1f82a1a1060f1dd741"
     },
     {
-      "address": "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6",
+      "address": "0xdc1e04c8c286906d725B2a3B682b5DE6E96BB0d3",
       "method": "sim_fundAccount",
       "requestedWei": "1000000000000000000",
       "beforeWei": "0",
       "afterWei": "1000000000000000000",
-      "result": "0xbcf7271109bf9feafda75683659eb4c28e515099f0679fdecdd229e798eb8dcb"
+      "result": "0x72fa2aeca6b230fb8f286c96cc074f32a1a135ea37afe24d0a2c6a15eb67135b"
     }
   ],
   "complete": true,
   "actors": [
-    "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-    "0x3Adb52a75f1FE41457A383b6CFfC32a541469252",
-    "0x21BAb2aEb2aa5f8556244C33991349D1Ac2C29c6"
+    "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+    "0xA294251700dB94d8cFE6255BcE235a9596B4431F",
+    "0xdc1e04c8c286906d725B2a3B682b5DE6E96BB0d3"
   ],
   "deployment": {
-    "hash": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+    "hash": "0xc3ad18e3c38b88ebd7dc9e4f7d91c64ae6eb7a1551acf440e83b0ccf7898be81",
     "receipt": {
-      "hash": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
-      "from_address": "0x2D663e5C9Dae6C47fDbA5B90a118673062C35FAc",
-      "to_address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+      "hash": "0xc3ad18e3c38b88ebd7dc9e4f7d91c64ae6eb7a1551acf440e83b0ccf7898be81",
+      "from_address": "0xa26E9C3d23fB5b69DbF345F3853790b7F49D47F7",
+      "to_address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
       "status": 7,
       "statusName": "FINALIZED",
       "txExecutionResultName": "FINISHED_WITH_RETURN",
-      "created_at": "2026-11-24T07:05:17.758812+00:00",
-      "nonce": 1,
+      "created_at": "2026-11-24T07:35:08.629358+00:00",
       "consensus_data": {
         "votes": {
-          "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56": "agree",
-          "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "idle",
-          "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F": "agree",
-          "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "idle",
-          "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+          "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "agree",
+          "0x23A15A452F19D1B616276fedC5B8B51d69082959": "agree",
+          "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "idle",
+          "0xe358f855C96d8E7243836cf986eb037175B9467e": "idle",
+          "0xee46B9Dc4c860149B1d140840284e5374854e746": "agree"
         },
         "leader_receipt": [
           {
@@ -469,10 +475,10 @@
       "call": "{}"
     }
   },
-  "sourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "sourceSha256": "6f6c27eb2e2d5ac527db46b8296736f92dfe230635cfc9febbeaed59a15d1d0f",
   "sourcePath": "contracts/exhibit_basket.py",
-  "address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
-  "completedAt": "2026-11-24T07:10:10.231Z",
+  "address": "0x5764756f8de18E77F3bd5AE7A33Fbc89D71a2D41",
+  "completedAt": "2026-11-24T07:39:39.864Z",
   "keyCleanup": {
     "removed": true,
     "published": false

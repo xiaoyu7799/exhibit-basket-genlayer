@@ -1,0 +1,9 @@
+{
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js@2.0.0",
+  "address": "0xA88DD67849529446f191Fa09Ca7a8889519e5DF0",
+  "transaction": "0x160df0eda91bd18fd9df936a6dbb23846f24f33945716c6a913f29479cf6f8ca",
+  "sourceSha256": "1334f287ddf5e61769dde8e6351180f41053cb7ad082c1ce78590948de0c2517",
+  "source": "contracts/exhibit_basket.py"
+}

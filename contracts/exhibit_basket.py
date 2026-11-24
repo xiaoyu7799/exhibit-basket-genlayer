@@ -16,16 +16,19 @@ def pack(data):
 
 
 def inspect_object(identifier):
-    response = gl.nondet.web.get(API + str(identifier))
+    source = API + str(identifier)
+    response = gl.nondet.web.get(source)
+    if response.status == 404:
+        return {"id": identifier, "reason": "NOT_FOUND", "image": "", "source": source}
     require(response.status == 200 and len(response.body) <= 250000, "CATALOG_UNAVAILABLE")
     item = json.loads(response.body.decode("utf-8"))
     require(item.get("objectID") == identifier, "CATALOG_ID_MISMATCH")
     rights = item.get("isPublicDomain")
     image = item.get("primaryImage")
-    require(type(rights) is bool and type(image) is str, "INVALID_CATALOG_FIELDS")
-    url = image if rights and image.startswith(IMAGE) else ""
-    reason = "READY" if url else ("NO_OFFICIAL_IMAGE" if rights else "NOT_PUBLIC_DOMAIN")
-    return {"id": identifier, "reason": reason, "image": url, "source": API + str(identifier)}
+    require(type(rights) is bool, "INVALID_CATALOG_FIELDS")
+    has_official_image = type(image) is str and image.startswith(IMAGE) and len(image) > len(IMAGE)
+    reason = "NO_OFFICIAL_IMAGE" if not has_official_image else ("READY" if rights else "NOT_PUBLIC_DOMAIN")
+    return {"id": identifier, "reason": reason, "image": image if reason == "READY" else "", "source": source}
 
 
 def assess(slots):
